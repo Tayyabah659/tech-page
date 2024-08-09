@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #D0B8A8;
+    
+}
+/* Nav bar */
+nav{
+    width: auto;
+height:130px;
+    background-color:#8D493A ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+    #logo{
+        width: 150px;
+        height: 150px;
+        margin-right: 100px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+    .input{
+        display: flex;
+    }
+    input{
+        width:500px;
+        height: 49px;
+        border-radius: 5px;
+    }
+    input:hover{
+     border: rgb(238,174,202); 
+     cursor: pointer;
+    }
+    #icon-search{
+        background-color: rgb(245, 162, 37);
+        color: #fff;
+        padding: 9px;
+        margin-left:-30px;
+        border-radius: 5px;
+        font-size: 30px;
+        border-style: none;
+        border: none;
+     
+       
+    }
+    #icon-search:hover{
+        transform:scale(1.1) ;
+        cursor: pointer;
+    }
+
+    .icons{
+        display: flex;
+        padding: 0px 90px;
+        width: 30px;
+        height: 30px;
+
+    }
+    #icon-heart{
+        margin: 0 5px;
+       font-size: 28px;
+       cursor: pointer;
+    }
+    #icon-heart:hover{
+        color: #fff;
+        transform:scale(1.1) ;
+        cursor: pointer;
+    }
+ #icon-cart{
+    margin: 0 5px;
+    font-size: 28px;
+    cursor: pointer;
+ }
+ #icon-cart:hover{
+    color: #fff;
+    transform:scale(1.6) ;
+    cursor: pointer;
+ }
+ @media(  max-width: 600px){
+   nav{
+    width: 600pxpx;
+   }
+    #logo{
+        width: 190px;
+    }
+    input{
+        width: 250px;
+        height: 40px;
+    }
+   #icon-search{
+    width: 30px;
+    bac
+
+    }
+   
+    i{
+        background-color: transparent;
+        color: #000;
+        padding-top: 2px;
+        margin-left: -20px;
+    }
+    .icons{
+        padding: 0 15px;
+        width: 15px;
+        height: 15px;
+    }
+    .icons i{
+        padding-left: 5px;
+    }
+ }
+ 
+
+
+ 
+    
