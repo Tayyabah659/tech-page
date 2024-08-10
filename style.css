@@ -206,7 +206,67 @@ height: 34px;
     text-align: center;
   }
   /* Mobiles */
+  #mob-heading{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  } 
 
 
+  .Mobiles{
+display: grid;
+grid-template-columns: 14% 14% 14% 14% 14% 14% 14% ;
+justify-content: space-around;
+  }
+
+  .Mobiles div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 1px  solid gainsboro;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .Mobiles div img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: transparent;
+  }
+
+  .Mobiles span p{
+    font-size: small;
+    padding: 3px;
+  }
+  .Mobiles span p:first-child{
+    font-weight: bold;
+
+  }
+  #mob-heading{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+
+.Mobiles{
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+}
+.Mobiles div{
+    height: 100%;
+    margin: 30px 0;
+    margin-bottom: 0px;
+    border: 10px solid #a9c7e0;
+}
+.Mobiles div img{
+    height: 80%;
+    width: 90%;
+}
+.Mobiles span p{
+    font-size: medium;
+}
  
     
