@@ -250,17 +250,13 @@ justify-content: space-around;
     margin-bottom: 10px;
     padding: 10px 20px;
   }
-
-.Mobiles{
-    grid-template-columns: 30% 30% 30%;
+  .Mobiles{
+    grid-template-columns: 25% 25% 25%;
     justify-content: space-around;
 }
-.Mobiles div{
-    height: 100%;
-    margin: 30px 0;
-    margin-bottom: 0px;
-    border: 10px solid #a9c7e0;
-}
+
+
+
 .Mobiles div img{
     height: 80%;
     width: 90%;
@@ -268,5 +264,7 @@ justify-content: space-around;
 .Mobiles span p{
     font-size: medium;
 }
- 
+/*  Laptop-section */
+
+
     
